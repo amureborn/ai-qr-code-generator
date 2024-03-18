@@ -508,11 +508,6 @@ video {
 	line-height: 2.5rem
 }
 
-.text-sm {
-	font-size: .875rem;
-	line-height: 1.25rem
-}
-
 .font-bold {
 	font-weight: 700
 }
@@ -578,8 +573,4 @@ video {
 		line-height: 1
 	}
 
-	.md\:text-lg {
-		font-size: 1.125rem;
-		line-height: 1.75rem
-	}
 }
