@@ -393,7 +393,7 @@ video {
 
 /* Base mobile styles */
 .max-w-5xl {
-  max-width: 100%;
+  max-width: 68rem;
   padding: 2.5rem ;
 }
 
