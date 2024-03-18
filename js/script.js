@@ -1,54 +1,64 @@
-const form = document.getElementById("generate-form");
-const qr = document.getElementById("qrcode");
+const form = document.getElementById('generate-form');
+const qr = document.getElementById('qrcode');
 
+// Button submit
 const onGenerateSubmit = (e) => {
   e.preventDefault();
 
   clearUI();
 
-  const url = document.getElementById("url").value;
-  const size = document.getElementById("size").value;
-  const color = document.getElementById("color").value;
+  const url = document.getElementById('url').value;
+  const size = document.getElementById('size').value;
 
-  if (url === "") {
-    return;
+  // Validate url
+  if (url === '') {
+    alert('Please enter a URL');
   } else {
     showSpinner();
-
+    // Show spinner for 1 sec
     setTimeout(() => {
       hideSpinner();
+      generateQRCode(url, size);
 
-      generateQRCode(url, size, color);
-
+      // Generate the save button after the qr code image src is ready
       setTimeout(() => {
-        const saveUrl = qr.querySelector("img").src;
+        // Get save url
+        const saveUrl = qr.querySelector('img').src;
+        // Create save button
         createSaveBtn(saveUrl);
       }, 50);
     }, 1000);
   }
 };
 
-const generateQRCode = (url, size, color) => {
-  const qrcode = new QRCode("qrcode", {
+// Generate QR code
+const generateQRCode = (url, size) => {
+  const qrcode = new QRCode('qrcode', {
     text: url,
     width: size,
     height: size,
-    colorDark: color,
   });
 };
 
-const showSpinner = () => {
-  document.getElementById("spinner").style.display = "block";
-};
-
-const hideSpinner = () => {
-  document.getElementById("spinner").style.display = "none";
-};
-
+// Clear QR code and save button
 const clearUI = () => {
-  qr.innerHTML = "";
-  const saveLink = document.getElementById("save-link");
-  if (saveLink) saveLink.remove();
+  qr.innerHTML = '';
+  const saveBtn = document.getElementById('save-link');
+  if (saveBtn) {
+    saveBtn.remove();
+  }
+};
+
+// Show spinner
+const showSpinner = () => {
+  const spinner = document.getElementById('spinner');
+  spinner.style.display = 'block';
+};
+
+// Hide spinner
+const hideSpinner = () => {
+  const spinner = document.getElementById('spinner');
+  spinner.style.display = 'none';
 };
 
 // Create save button to download QR code as image
@@ -65,4 +75,4 @@ const createSaveBtn = (saveUrl) => {
 
 hideSpinner();
 
-form.addEventListener("submit", onGenerateSubmit);
+form.addEventListener('submit', onGenerateSubmit);
