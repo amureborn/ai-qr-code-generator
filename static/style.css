@@ -14,11 +14,6 @@ div.container-narrow {
     margin-right: auto;
     margin-left: auto;
 }
-#qrcode {
-    padding: 3rem;
-    box-sizing: border-box;
-    margin: 0 auto;
-}
 
 #qrcode img {
     max-width: 300px;
