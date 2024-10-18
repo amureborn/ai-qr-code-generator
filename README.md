@@ -6,14 +6,12 @@ Demo: [AI QR Code Generator](https://prepphint.com/qr-code-generator/)
 
 ![Screenshot Capture - 2024-10-18 - 14-25-35](https://github.com/user-attachments/assets/1f16e4d8-049a-4f2b-a76a-1f261f50c45d)
 
-- Adjustable Tempo: Set the tempo anywhere from slow to fast, with a range of 20-240 BPM. Use the "Tap Tempo" feature to find your ideal beat.
+- Customizable Design: Adjust foreground and background colors to match your style, or opt for a transparent background for versatile use.
 
-* Play and Stop: Start and stop the metronome easily with a single click on the "Play" button.
+* Flexible Output: Generate QR codes in PNG or JPG format, and resize to fit your needs, from small to large.
+   
++ Multiple Types: Create QR codes for links, email, WhatsApp, or phone numbers, all from one interface.
 
-+ Time Signature: Customize the time signature to suit your needs, from common time (4/4) to more complex signatures.
+- Interactive Features: Slide to adjust size and customize appearance, ensuring your QR code stands out.
 
-- Subdivision Options: Choose from various subdivisions, such as quarter notes, eighth notes, and more, to fit your practice requirements.
-
-* Light Mode/Dark Mode: Switch between light and dark themes for comfortable use in any lighting.
-
-Upgrade your practice sessions with our versatile and easy-to-use online metronome tool. Install now and keep perfect time with every beat!
+Elevate your experience with a QR code generator that lets you design with precision and flexibility. Try it now at [PreppHint.Com](https://prepphint.com/qr-code-generator/)!
