@@ -2,7 +2,7 @@
 
 Create QR codes easily with Our [Advanced QR Code Generator](https://educatefarm.in/). Just enter your URL or text, adjust the colors and background, and control the size using the slider. You can even make the background transparent. Preview your customized QR code on the left, and download it instantly as a high-quality PNG or JPG file. Enjoy the flexibility and efficiency of creating personalized QR codes in seconds!
 
-Demo: [Online Metronome](https://prepphint.com/qr-code-generator/)
+Demo: [AI QR Code Generator](https://prepphint.com/qr-code-generator/)
 
 ![Screenshot Capture - 2024-10-18 - 14-25-35](https://github.com/user-attachments/assets/1f16e4d8-049a-4f2b-a76a-1f261f50c45d)
 
