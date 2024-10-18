@@ -14,4 +14,4 @@ Demo: [AI QR Code Generator](https://prepphint.com/qr-code-generator/)
 
 - Interactive Features: Slide to adjust size and customize appearance, ensuring your QR code stands out.
 
-Elevate your experience with a QR code generator that lets you design with precision and flexibility. Try it now at [PreppHint.Com](https://prepphint.com/qr-code-generator/)!
+Elevate your experience with a QR code generator that lets you design with precision and flexibility. Try it now at [PreppHint.Com](https://prepphint.com/)!
