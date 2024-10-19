@@ -1,4 +1,4 @@
-# AI QR Code Generator
+# QR Code Generator for Free
 
 Create QR codes easily with Our [Advanced QR Code Generator](https://educatefarm.in/). Just enter your URL or text, adjust the colors and background, and control the size using the slider. You can even make the background transparent. Preview your customized QR code on the left, and download it instantly as a high-quality PNG or JPG file. Enjoy the flexibility and efficiency of creating personalized QR codes in seconds!
 
